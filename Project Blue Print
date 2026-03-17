@@ -1,0 +1,32 @@
+erpnext-sales-app/
+├── public/
+│   ├── sw.js                  # service worker for background sync
+│   ├── icons/
+│   │   ├── app-icon.png
+│   │   └── app-icon-512.png
+│   └── index.html
+├── src/
+│   ├── api/
+│   │   └── apiClient.js
+│   ├── hooks/
+│   │   ├── useOfflineCache.js
+│   │   └── useSyncOrders.js
+│   ├── pages/
+│   │   ├── LoginPage.jsx
+│   │   ├── CustomersPage.jsx
+│   │   ├── CreateOrderPage.jsx
+│   │   └── QueueDashboard.jsx
+│   ├── store/
+│   │   └── useAppStore.js
+│   ├── utils/
+│   │   ├── offlineQueue.js
+│   │   └── calculateTax.js
+│   ├── styles/index.css
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
